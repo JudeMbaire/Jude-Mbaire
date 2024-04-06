@@ -316,8 +316,17 @@ a:focus {
   margin-top: 15px;
 }
 
-
-
+.slider_section .detail-box .slider-link {
+  display: inline-block;
+  padding: 10px 45px;
+  background-color: transparent;
+  color: #ffff;
+  border-radius: 5px;
+  border: 1px solid #ffff;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+  margin-top: 35px;
+}
 
 .slider_section .detail-box .slider-link:hover {
   background-color: #fd9c6b;
@@ -459,7 +468,7 @@ a:focus {
   left: 0;
   width: 250px;
   height: 250px;
-  background-color: #fffff;
+  background-color: #160e0b;
 }
 
 .about_section .detail-box p {
