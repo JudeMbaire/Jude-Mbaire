@@ -120,7 +120,7 @@ h2 {
   -webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.07);
           box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.07);
   z-index: 7;
-  border-radius: 100%;
+  border-radius: 50%;
   -webkit-transition: all .3s;
   transition: all .3s;
 }
@@ -359,8 +359,9 @@ a:focus {
 .shop_section .box {
   background-color: #eeeeee;
   position: relative;
-  padding: 10px;
+  padding: 0%;
   margin-top: 25px;
+  border-radius: 10px;
 }
 
 .shop_section .box a {
@@ -379,11 +380,14 @@ a:focus {
           align-items: center;
   padding: 15px 30px;
   height: 245px;
+  
 }
 
 .shop_section .box .img-box img {
-  max-width: 100%;
-  max-height: 145px;
+  max-width: 130%;
+  max-height: 300px;
+  border-radius: 10px;
+  
 }
 
 .shop_section .box .detail-box {
@@ -393,31 +397,16 @@ a:focus {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+          
+         
+          
 }
 
 .shop_section .box .detail-box h6 span {
   color: #fd9c6b;
 }
 
-.shop_section .box .new {
-  width: 50px;
-  height: 50px;
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  background-color: #ffffff;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  border-radius: 100%;
-  font-size: 15px;
-}
+
 
 .shop_section .btn-box {
   display: -webkit-box;
@@ -426,7 +415,7 @@ a:focus {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: 45px;
+  margin-top: 100px;
 }
 
 .shop_section .btn-box a {
