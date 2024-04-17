@@ -722,8 +722,11 @@ a:focus {
   
 }
 
-.blog_section .box .detail-box {
+.blog_section .box .detail-box p {
   text-align: center; /* Center the icons */
+  font-size: 15px;
+  border-radius: 60px;
+  
 }
 
 .blog_section .box .detail-box a {
@@ -736,12 +739,12 @@ a:focus {
   -webkit-transition: all .2s;
   transition: all .2s;
 }
-/*
-.blog_section .box .detail-box a:hover {
+
+.blog_section .box .detail-box a:solid {
   background-color: #160e0b;
   color: #ffffff;
 }
-*/
+
 .client_section .heading_container {
   -webkit-box-align: center;
       -ms-flex-align: center;
